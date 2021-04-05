@@ -3,6 +3,7 @@ package tests;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import steps.StepTest;
 
 @DisplayName("Запуск всех тестов сразу")
 public class AllTestsRun {

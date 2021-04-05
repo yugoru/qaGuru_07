@@ -1,4 +1,4 @@
-package tests;
+package steps;
 
 
 import com.codeborne.selenide.Condition;
@@ -34,7 +34,7 @@ public class StepTest {
 
     }
 
-    @Step("Открываем главную страницу")
+    @Step("Проверяем видимость условий")
     public void searchFor(String searchFor) {
         $(withText(searchFor)).shouldBe(Condition.visible);
 

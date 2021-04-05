@@ -10,3 +10,8 @@
 /.idea/modules.xml
 /.idea/qaGuru_07.iml
 /.idea/vcs.xml
+/build/
+/.gradle/
+/gradlew
+/gradlew.bat
+/.idea/
